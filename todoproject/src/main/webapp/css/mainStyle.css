@@ -1,0 +1,53 @@
+#container1 {
+	margin: 50px auto;
+	width: 800px;
+}
+
+#container2 {
+	background-color: white;
+	display: flex;
+	width: 950px;
+	height: 500px;
+	margin: 50px auto;
+	1justify-content: center;
+	flex-direction: row;
+}
+
+#container2>.listbox > .col{
+	display: flex;
+	flex-direction: column;
+	list-style-type:none;
+	padding-left:0px;
+}
+
+#container2>.listbox>.nav {
+	margin: 0 0.5rem;
+	padding: 0 0.4rem;
+	height: 50px;
+	width: 280px;
+	background-color: #636e72;
+	text-align:center;
+	vertical-align:middle;
+	color: white;
+}
+
+#container2>.listbox> .col > ul {
+	list-style-type: none;
+	margin: 0.5rem;
+	padding: 0.5rem 0.4rem;
+	height: 50px;
+	width: 280px;
+	background-color: #dfe6e9;
+	color: black;
+	font-size: 15px;
+}
+
+.newTodo {
+	background-color: gray;
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
